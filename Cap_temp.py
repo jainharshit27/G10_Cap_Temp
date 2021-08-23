@@ -27,8 +27,6 @@ hurdle_img = pygame.image.load("hurdle.png")
 hurdle_img = pygame.transform.scale(hurdle_img, (200,25))
 
 thief = Thief(10, 380, 15, 15)
-#thief_x_change = 0
-#thief_y_change = 0
 
 jewel = pygame.Rect(350, 10, 40, 40)
 jewel_image = pygame.image.load("jewel.png")
